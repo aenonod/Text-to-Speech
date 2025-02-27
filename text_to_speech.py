@@ -3,8 +3,8 @@ from playsound import playsound
 import tempfile
 import os
 
-text = input("Input your text: ")
-language = input("Enter your language (en for english, tl for tagalog): ")
+text = input("Enter your text: ")
+language = input("Enter language code (en for english, tl for tagalog): ")
 
 if language not in ['en', 'tl']:
     print("Invalid language. Defaulting to english.")
